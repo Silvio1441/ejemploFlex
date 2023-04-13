@@ -1,0 +1,29 @@
+.principal {
+    border: 3px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-wrap: nowrap; */
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+    /* justify-content: center; */
+    /* justify-content: right; */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+}
+
+.secciones {
+    border: 2px solid green;
+}
+
+p {
+    width: 400px;
+}
+
+.secciones :hover {
+    width: 120%;
+    z-index: 1;
+}
